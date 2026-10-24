@@ -31,5 +31,34 @@ if you want to replace the new firefox icon do this (zap's Cool Photon Theme doe
 }
 
 
+if you want the old firefox ring buttons you need to paste this into userchrome
+
+/* --- LIGHT MODE --- */
+@media (prefers-color-scheme: light) {
+  #back-button .toolbarbutton-icon {
+    border: 1px solid #707070 !important;
+    background-color: transparent !important;
+  }
+
+  #back-button:hover .toolbarbutton-icon {
+    border-color: #333333 !important;
+    background-color: rgba(0, 0, 0, 0.05) !important;
+  }
+}
+
+/* --- DARK MODE --- */
+@media (prefers-color-scheme: dark) {
+  #back-button .toolbarbutton-icon {
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    background-color: #525252 !important; /* Filled gray circle for dark mode */
+  }
+
+  #back-button:hover .toolbarbutton-icon {
+    background-color: #636363 !important;
+  }
+}
+
+
+
 
 
