@@ -1,12 +1,12 @@
 <table width="100%">
   <tr>
     <td width="84" align="center" valign="middle">
-      <img src="https://github.com/user-attachments/assets/0bd1858c-1a8c-410e-998c-67a9c49a2190" alt="RetroFox" width="68" height="68">
+      <img src="https://github.com/user-attachments/assets/0bd1858c-1a8c-410e-998c-67a9c49a2190" alt="MillenniumFox" width="68" height="68">
     </td>
     <td valign="middle">
-      <h1>RetroFox</h1>
-      <b>Stop hunting. Pick your Firefox era.</b><br>
-      <i>A curated directory linking directly to the best <code>userChrome.css</code> themes across every Firefox generation.</i>
+      <h1>MillenniumFox</h1>
+      <b>Every era of the classic web, restored in one place.</b><br>
+      <i>Stop hunting. Pick your Firefox generation and bring back the golden age of browser UI with curated <code>userChrome.css</code> themes.</i>
     </td>
   </tr>
 </table>
@@ -19,6 +19,7 @@
 
 | Era | Firefox Version | Theme / Method | Creator |
 | :---: | :---: | :---: | :---: |
+| **Phoenix / Winstripe** | `Firefox 1.0 (2004)` | **[RetroFox2004](https://github.com/andyquann123/RetroFox2004)** | andyquann123 |
 | **Strata** | `Firefox 3` | **[Firefox-3-Theme-NEW](https://github.com/OmegaAOL/Firefox-3-Theme-NEW)** | OmegaAOL |
 | **Strata redesign** | `Firefox 4–9` | **[Firefox-Classic-Theme-155-158](https://github.com/DiegoSainzPardoLaso/Firefox-Classic-Theme-155-158)** | Diego Sainz-Pardo Laso |
 | **Early Australis** | `Firefox 10–28` | *Unavailable* (`Echelon` no longer works on modern Firefox) | — |
@@ -35,6 +36,15 @@
   <tr>
     <th width="35%" align="left">Era &amp; Theme</th>
     <th width="65%" align="left">Preview</th>
+  </tr>
+  <tr>
+    <td valign="top">
+      <p><b>Firefox 1.0 (2004 / Winstripe)</b></p>
+      <p><b>Theme:</b> RetroFox2004<br>
+      <b>Author:</b> andyquann123</p>
+      <p><a href="https://github.com/andyquann123/RetroFox2004"><b>[ Visit Repository &rarr; ]</b></a></p>
+    </td>
+    <td align="center" valign="middle"><img width="2001" height="1168" alt="retrofoxpreviewpic" src="https://github.com/user-attachments/assets/8307a8d5-30d8-46f2-bead-977d88674905" /></td>
   </tr>
   <tr>
     <td valign="top">
@@ -112,6 +122,7 @@
 ### 1. Restore the Classic Ring Back Button (`userChrome.css`)
 Paste this into **`userChrome.css`** to get the classic circular ring back button:
 
+```css
 /* --- CLASSIC RING SHAPE --- */
 #back-button .toolbarbutton-icon,
 #forward-button .toolbarbutton-icon,
