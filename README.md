@@ -78,6 +78,8 @@
       <p><b>Theme:</b> WaveFox<br>
       <b>Author:</b> QNetITQ</p>
       <p><a href="https://github.com/QNetITQ/WaveFox"><b>[ Visit Repository &rarr; ]</b></a></p>
+      <hr>
+      <p><i>Want an even closer 2014 Australis look? Check out <a href="https://github.com/bbqbacon/Photon-Australis-Updated"><b>Photon-Australis-Updated</b></a> (requires tweaking WaveFox settings to match).</i></p>
     </td>
     <td align="center" valign="middle"><img alt="Firefox 29-56 WaveFox" src="https://github.com/user-attachments/assets/fdade261-9eba-431a-9801-fad5758544ee"></td>
   </tr>
