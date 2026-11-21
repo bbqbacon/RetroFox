@@ -20,7 +20,7 @@
 | Era | Firefox Version | Theme / Method | Creator |
 | :---: | :---: | :---: | :---: |
 | **Strata** | `Firefox 3` | **[Firefox-3-Theme-NEW](https://github.com/OmegaAOL/Firefox-3-Theme-NEW)** | OmegaAOL |
-| **Classic** | `Firefox 4–9` | **[Firefox-Classic-Theme-155-158](https://github.com/DiegoSainzPardoLaso/Firefox-Classic-Theme-155-158)** | Diego Sainz-Pardo Laso |
+| **Strata redesign** | `Firefox 4–9` | **[Firefox-Classic-Theme-155-158](https://github.com/DiegoSainzPardoLaso/Firefox-Classic-Theme-155-158)** | Diego Sainz-Pardo Laso |
 | **Early Australis** | `Firefox 10–28` | *Unavailable* (`Echelon` no longer works on modern Firefox) | — |
 | **Australis** | `Firefox 29–56` | **[WaveFox](https://github.com/QNetITQ/WaveFox)** | QNetITQ |
 | **Photon** | `Firefox 57–88` | **[zapsCoolPhotonTheme](https://github.com/zapSNH/zapsCoolPhotonTheme)** | zapSNH |
