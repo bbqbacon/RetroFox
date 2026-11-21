@@ -112,11 +112,40 @@
 ### 1. Restore the Classic Ring Back Button (`userChrome.css`)
 Paste this into **`userChrome.css`** to get the classic circular ring back button:
 
-```css
 /* --- CLASSIC RING SHAPE --- */
-#back-button .toolbarbutton-icon {
+#back-button .toolbarbutton-icon,
+#forward-button .toolbarbutton-icon,
+#reload-button .toolbarbutton-icon {
   border-radius: 50% !important;
 }
 
 /* --- LIGHT MODE --- */
-@media (prefers-color-scheme: light
+@media (prefers-color-scheme: light) {
+  #back-button .toolbarbutton-icon {
+    border: 1px solid #707070 !important;
+    background-color: transparent !important;
+  }
+
+  #back-button:hover .toolbarbutton-icon {
+    border-color: #333333 !important;
+    background-color: rgba(0, 0, 0, 0.05) !important;
+  }
+}
+
+/* --- DARK MODE --- */
+@media (prefers-color-scheme: dark) {
+  #back-button .toolbarbutton-icon {
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    background-color: #525252 !important;
+  }
+
+  #back-button:hover .toolbarbutton-icon {
+    background-color: #636363 !important;
+  }
+
+  /* Rounded hover background for forward & reload in dark mode */
+  #forward-button:hover:not([disabled]) .toolbarbutton-icon,
+  #reload-button:hover:not([disabled]) .toolbarbutton-icon {
+    background-color: rgba(255, 255, 255, 0.12) !important;
+  }
+}
